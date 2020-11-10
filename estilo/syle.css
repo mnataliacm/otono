@@ -1,0 +1,51 @@
+@font-face {
+    font-family:'Queental-Regular' ;
+    src: url('../fuentes/Queental-Regular.ttf');
+    font-family:'Lovebird' ;
+    src: url('../fuentes/Lovebird.ttf');
+}
+
+body {  
+    background-color: #f0653b;
+    width: 1200px;
+    /*height: 5%;*/
+}
+        #fondoimg {
+            width: 80%;
+            height: 20%;
+            padding: 16%;
+            background-image: url('../imagenes/ksym100400142.jpg');
+            background-repeat: repeat;
+            position: relative;
+        }
+
+        #container {
+            border-radius: 40px;
+            width: auto;
+            max-width: 270px;
+            padding: 2%;
+            margin: 25%;
+            background-color: rgba(241, 125, 30, 0.479);
+        }
+
+        h1 {
+            color: rgb(247, 9, 9);
+            text-align: center;
+            font-family:'Lovebird';
+            font-size:2em;
+            letter-spacing:4px;
+            text-shadow: 2px 2px black;
+        }
+
+        p {
+            color: black;
+            font-size: 1em;
+            text-align: left;
+            font-family:'Queental-Regular';
+        }
+
+        h3 {
+            color: oldlace;
+            text-align: right;
+            text-shadow: 2px 2px black;
+        }
