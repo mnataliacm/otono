@@ -1,12 +1,14 @@
 @font-face {
-    font-family:'Queental-Regular' ;
-    src: url('../fuentes/Queental-Regular.ttf');
-    font-family:'Lovebird' ;
+    font-family:'regular' ;
+    src: url('../fuentes/QUIGLEYW.TTF');
+}
+@font-face {
+    font-family:'love' ;
     src: url('../fuentes/Lovebird.ttf');
 }
+    
 body {  
     background-color: #f0653b;
-    width: 100%;
 }
         #fondoimg {
             max-width: 100%;
@@ -18,16 +20,17 @@ body {
         }
         #container {
             border-radius: 60px;
-            max-width: 600px;
+            max-width: 650px;
             position: relative;
             padding: 2.5%;
             margin: auto;
             background-color: rgba(241, 125, 30, 0.479);
         }
+        
         h1 {
             color: rgb(247, 9, 9);
             text-align: center;
-            font-family:'Lovebird';
+            font-family:'love';
             font-size:5em;
             letter-spacing:4px;
             text-shadow: 2px 2px black;
@@ -36,24 +39,36 @@ body {
             color: black;
             font-size: 2em;
             text-align: left;
-            font-family:'Queental-Regular';
+            font-family:'regular';
         }
         h3 {
             color: oldlace;
+            font-family: "love";
             font-size: 2em;
             text-align: right;
             text-shadow: 2px 2px black;
+            padding-right: 5%;
         }
-        @media only screen and (max-width:950px) {
-            #fondoimg {width: 40%;}
-            #container {width: 30%;}
-            #container h1 {font-size: 5em;}
-            #container p {font-size: 1em;}
-            #container h3 {font-size: 1em;}
+        @media only screen and (max-width:1000px) {
+            #fondoimg {
+                width: 90%;
+                height: 40%;
+                margin: auto;
+                padding: 3%;
+            }
+            #container {width: 60%;}
+            #container h1 {font-size: 3em;}
+            #container p {font-size: 1.5em;}
+            #container h3 {font-size: 1.5em;}
         }
-        @media only screen and (max-width:950px) {
-            #fondoimg {width: 100%; height: 100%;margin: auto; padding: 55px;}
-            #container {width: 65%;padding-left: 5%;margin: 5px;}
+        @media only screen and (max-width:550px) {
+            #fondoimg {
+                width: 90%; 
+                height: 80%;
+                margin: auto;
+                padding: 3%;
+            }
+            #container {width: 80%;}
             #container h1 {font-size: 2em;}
             #container p {font-size: 1em;}
             #container h3 {font-size: 1em;}
